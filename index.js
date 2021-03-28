@@ -5,7 +5,11 @@ const webpush = require('web-push');
 
 app.use(express.json());
 app.use(express.urlencoded());
-app.use(cors());
+
+const corsOptions = {
+    origin: 'https://cnk-utkarsh.netlify.app',
+  }
+app.use(cors(corsOptions));
 
 const subscriptions = [];
 

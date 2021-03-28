@@ -18,6 +18,7 @@
   "homepage": "https://github.com/utkarshpant/cnk-notifs-backend#readme",
   "dependencies": {
     "config": "^3.3.6",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "nodemon": "^2.0.7",
     "web-push": "^3.4.4"
